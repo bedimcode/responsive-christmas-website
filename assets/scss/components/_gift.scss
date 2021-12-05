@@ -1,0 +1,40 @@
+/*=============== GIFT ===============*/
+.gift{
+    &__container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    &__card{
+        display: grid;
+        position: relative;
+        background-color: var(--container-color);
+        box-shadow: 0 4px 16px hsla(355, 25%, 15%, .1);
+        padding: 1.5rem 1rem 1rem;
+        border-radius: .75rem;
+
+        &:hover .gift__img{
+            transform: translateY(-.25rem);
+        }
+    }
+    &__img{
+        width: 100px;
+        justify-self: center;
+        margin-bottom: var(--mb-0-25);
+        transition: .3s;
+    }
+    &__icon{
+        font-size: 1.25rem;
+        color: var(--first-color);
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+    }
+    &__price{
+        font-size: var(--h3-font-size);
+    }
+    &__title{
+        font-size: var(--smaller-font-size);
+        font-weight: var(--font-medium);
+    }
+}

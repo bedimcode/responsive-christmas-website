@@ -1,0 +1,26 @@
+/*=============== GIVING ===============*/
+.giving{
+    &__container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem 1.5rem;
+    }
+    &__content{
+        text-align: center;
+    }
+
+    &__img{
+        width: 100px;
+        transition: .3s;
+
+        &:hover{
+            transform: translateY(-.25rem);
+        }
+    }
+    &__title{
+        font-size: var(--h3-font-size);
+        margin-bottom: var(--mb-0-25);
+    }
+    &__description{
+        font-size: var(--small-font-size);
+    }
+}

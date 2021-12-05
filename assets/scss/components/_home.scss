@@ -1,0 +1,24 @@
+/*=============== HOME ===============*/
+.home{
+    &__container{
+        padding-top: 1.5rem;
+        row-gap: 1.5rem;
+    }
+    &__img{
+        width: 320px;
+        justify-self: center;
+    }
+    &__data{
+        text-align: center;
+    }
+    &__title{
+        font-size: var(--biggest-font-size);
+        line-height: 140%;
+        margin-bottom: var(--mb-0-5);
+    }
+    &__description{
+        font-size: var(--small-font-size);
+        padding: 0 2rem;
+        margin-bottom: var(--mb-2-5);
+    }
+}

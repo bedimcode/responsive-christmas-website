@@ -1,0 +1,24 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container{
+    max-width: 968px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.grid{
+    display: grid;
+}
+
+.main{
+    overflow: hidden; // For animation
+}
+
+.section{
+    padding: 4.5rem 0 1rem;
+
+    &__title{
+        font-size: var(--h2-font-size);
+        margin-bottom: var(--mb-2-5);
+        text-align: center;
+    }
+}

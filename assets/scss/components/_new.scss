@@ -1,0 +1,60 @@
+/*=============== NEW ===============*/
+.new{
+    &__card{
+        position: relative;
+        width: 230px;
+        background-color: var(--container-color);
+        box-shadow: 0 4px 16px hsla(355, 25%, 15%, .1);
+        padding: 1rem 1rem 1.5rem;
+        border-radius: .75rem;
+        text-align: center;
+        margin-bottom: 4rem;
+        overflow: hidden;
+
+        &:hover .new__img{
+            transform: translateY(-.5rem);
+        }
+    }
+    &__overlay{
+        width: 250px;
+        height: 250px;
+        background-color: var(--first-color);
+        border-radius: 50%;
+        position: absolute;
+        top: -5rem;
+        left: -.65rem;
+        z-index: 0;
+    }
+    &__img{
+        position: relative;
+        width: 150px;
+        margin-bottom: var(--mb-2);
+        transition: .3s;
+    }
+    &__price{
+        font-size: var(--h2-font-size);
+    }
+    &__title{
+        font-weight: var(--font-medium);
+    }
+    &__button{
+        display: flex;
+        padding: .5rem;
+        border-radius: .25rem .25rem .75rem .25rem;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    &__icon{
+        font-size: 1.25rem;
+    }
+}
+
+/*Class Swiper*/
+.swiper-pagination-bullet{
+    background-color: var(--text-color);
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--first-color);
+}

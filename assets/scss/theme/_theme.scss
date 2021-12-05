@@ -1,0 +1,50 @@
+/*=============== THEME ===============*/
+.nav__btns{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.change-theme{
+    color: var(--title-color);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+/*========== Variables Dark theme ==========*/
+body.dark-theme{
+    --title-color: hsl(355, 4%, 95%);
+    --text-color: hsl(355, 4%, 75%);
+    --body-color: hsl(355, 20%, 12%);
+    --container-color: hsl(355, 16%, 16%);
+}
+
+/*========== 
+    Color changes in some parts of 
+    the website, in dark theme 
+==========*/
+
+.dark-theme .scroll-header,
+.dark-theme .nav__menu{
+    box-shadow: 0 2px 4px hsla(0, 0%, 4%, .3);
+}
+
+.dark-theme .message__container{
+    background-color: var(--container-color);
+}
+
+.dark-theme .message__input{
+    background-color: var(--body-color);
+}
+
+.dark-theme .message__button{
+    background-color: var(--first-color);
+
+    &:hover{
+        background-color: var(--first-color-alt);
+    }
+}
+
+.dark-theme::-webkit-scrollbar{
+    background: hsl(355, 8%, 30%);
+}
