@@ -6,6 +6,7 @@
     --header-height: 3.5rem;
 
     /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
     --first-color: hsl(355, 70%, 54%);
     --first-color-alt: hsl(355, 66%, 50%);
     --title-color: hsl(355, 4%, 15%);
@@ -15,6 +16,7 @@
     --container-color: #fff;
 
     /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
     --body-font: 'Poppins', sans-serif;
 
     --biggest-font-size: 1.5rem;
@@ -41,6 +43,7 @@
     --font-semi-bold: 600;
 
     /*========== Margenes Bottom ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
     --mb-1: 1rem;
