@@ -1,0 +1,97 @@
+========== HOME ==========
+.home__title
+Merry Christmas and <br> Happy New Year!
+
+.home__description
+Christmas and a new year is about to begin, 
+all good wishes and successes.
+
+========== GIVING ==========
+.section__title
+Start Giving This <br> Christmas
+
+.giving__title | .giving__description
+Surprise gifts
+They are the best gifts there is.
+
+Ornaments
+Give a moment to decorate.
+
+Lots of love
+Give away feelings that last forever.
+
+========== CELEBRATE ==========	
+.section__title
+Celebrate With A <br> Lot Of Love
+
+.celebrate__description
+In this holidays, celebrate with much love and peace, offering many 
+blessings to our loved ones, friends and neighbors, wishing them 
+a good Christmas message.
+
+.button
+Send Good Wishes
+
+========== GIFT ==========
+.section__title
+Share A Gift
+
+.gift__price | .gift__title
+$15
+Gingerbread
+
+$22
+Santa Claus Hat
+
+$48
+Christmas Tree
+
+$35
+Snowman
+
+$12
+Candy Stick
+
+========== NEW  ==========
+.section__title
+New Gifts
+
+.new__price | .new__title
+$95
+Reindeer
+
+$20
+Snow Globe
+
+$75
+Sledge
+
+$15
+Christmas Wreath
+
+========== MESSAGE ==========
+.message__title
+Send Good <br> Wishes!
+
+.message__button
+Send Message
+
+========== FOOTER ==========
+.footer__description
+This Christmas give <br> a lot of love
+
+.footer__title | .footer__link
+Our Services
+Pricing
+Discounts
+Shipping mode
+
+Support
+FAQs
+Support center
+Contact Us
+
+Available On
+
+.footer__copy
+&#169; Bedimcode. All rigths reserved
